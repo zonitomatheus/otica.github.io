@@ -1,0 +1,60 @@
+body {
+    background-color: powderblue;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 64px;
+}
+
+.container .pre-intro {
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-between;
+
+}
+
+.container .intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid black 2px;
+    padding-bottom: 30px;
+
+
+}
+
+.container .intro h2 {
+    text-align: center;
+}
+
+.container .intro a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.container .consulta {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid black 2px;
+    padding-bottom: 60px;
+}
+
+.container .consulta p {
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.container .consulta .botao a {
+    display: flex;
+    flex-direction: column;
+    color: red;
+
+}
+
+.container .consulta .avatar img {
+    width: 80%;
+    padding-top: 40px;
+    padding-left: 60px;
+}
