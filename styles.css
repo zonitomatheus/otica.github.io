@@ -12,6 +12,7 @@ body {
     flex-direction: flex;
     justify-content: space-between;
     padding-bottom: 64px;
+    margin-bottom: 60px;
 }
 
 .container .intro {
