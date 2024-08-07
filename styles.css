@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: flex;
     justify-content: space-between;
-
+    padding-bottom: 64px;
 }
 
 .container .intro {
